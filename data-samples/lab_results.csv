@@ -1,0 +1,23 @@
+lab_id,visit_id,test_name,test_result_value,result_flag,test_date
+L001,1001,BNP,850,High,2024-01-15
+L002,1001,Creatinine,1.8,High,2024-01-15
+L003,1002,WBC Count,12.5,High,2024-01-16
+L004,1002,C-Reactive Protein,45,High,2024-01-16
+L005,1003,Glucose,420,High,2024-01-17
+L006,1003,HbA1c,11.2,High,2024-01-17
+L007,1004,Troponin,2.5,High,2024-01-18
+L008,1004,CK-MB,85,High,2024-01-18
+L009,1005,Arterial PO2,58,Low,2024-01-19
+L010,1005,PCO2,55,High,2024-01-19
+L011,1006,Lactate,4.2,High,2024-01-20
+L012,1006,Procalcitonin,8.5,High,2024-01-20
+L013,1007,D-Dimer,1500,High,2024-01-21
+L014,1007,CT Imaging Score,8,High,2024-01-21
+L015,1008,Blood Pressure Systolic,210,High,2024-01-22
+L016,1008,Blood Pressure Diastolic,125,High,2024-01-22
+L017,1009,Creatinine,4.5,High,2024-01-23
+L018,1009,BUN,65,High,2024-01-23
+L019,1010,Oxygen Saturation,88,Low,2024-01-24
+L020,1010,WBC Count,14.2,High,2024-01-24
+L021,1011,BNP,920,High,2024-02-10
+L022,1011,NT-proBNP,3500,High,2024-02-10
