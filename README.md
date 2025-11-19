@@ -1,6 +1,6 @@
 # Healthcare Patient Readmission Analytics on Azure
 
-##  Project Overview
+## Project Overview
 
 This project demonstrates an **end-to-end Azure Data Engineering solution** for analyzing 30-day patient readmissions in healthcare. Built using the **Medallion Architecture (Bronze/Silver/Gold)**, it showcases real-world data pipeline development, transformation, and analytics using Azure's modern data stack.
 
@@ -8,7 +8,7 @@ This project demonstrates an **end-to-end Azure Data Engineering solution** for 
 
 ---
 
-##  Architecture
+## Architecture
 
 ### Tech Stack
 - **Azure Data Lake Gen2** - Scalable data storage with hierarchical namespaces
@@ -20,26 +20,26 @@ This project demonstrates an **end-to-end Azure Data Engineering solution** for 
 ### Medallion Architecture Layers
 
 ```
- Bronze Layer (Raw Data)
+Bronze Layer (Raw Data)
    ├── ehr/              # Electronic Health Records
    ├── lab_results/      # Laboratory test results  
    └── claims/           # Insurance claims data
 
- Silver Layer (Cleaned & Standardized)
+Silver Layer (Cleaned & Standardized)
    ├── dim_patient/      # Patient dimension
    ├── dim_hospital/     # Hospital dimension
    ├── fact_visit/       # Visit facts
    ├── fact_lab_result/  # Lab result facts
    └── fact_claim/       # Claim facts
 
- Gold Layer (Analytics-Ready)
+Gold Layer (Analytics-Ready)
    ├── fact_readmission_risk/       # Readmission features
    └── mart_readmission_dashboard/  # Aggregated KPIs
 ```
 
 ---
 
-##  Data Model
+## Data Model
 
 ### Source Data (Bronze)
 1. **EHR Visits** - Patient admission and discharge records
@@ -54,7 +54,7 @@ This project demonstrates an **end-to-end Azure Data Engineering solution** for 
 
 ---
 
-##  Pipeline Flow
+## Pipeline Flow
 
 ### 1. Ingestion (Azure Data Factory)
 ```
@@ -86,7 +86,7 @@ Gold Layer → SQL Endpoint → Power BI Dashboards
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 healthcare-readmission-analytics-azure/
@@ -125,7 +125,7 @@ healthcare-readmission-analytics-azure/
 
 ---
 
-## 🚀 How to Deploy
+## How to Deploy
 
 ### Prerequisites
 - Azure subscription
@@ -174,7 +174,7 @@ healthcare-readmission-analytics-azure/
 
 ---
 
-##  Sample Business Insights
+## Sample Business Insights
 
 Based on the analytics platform, example insights include:
 
@@ -186,18 +186,18 @@ Based on the analytics platform, example insights include:
 
 ---
 
-##  Key Features
+## Key Features
 
-✅ **Medallion Architecture** - Industry-standard Bronze/Silver/Gold layers  
-✅ **Delta Lake** - ACID transactions, schema evolution, time travel  
-✅ **Incremental Processing** - Efficient data refresh patterns  
-✅ **Data Quality Checks** - Validation at each layer  
-✅ **Scalable Design** - Handles growing data volumes  
-✅ **End-to-End Orchestration** - Automated daily workflows  
+- **Medallion Architecture** - Industry-standard Bronze/Silver/Gold layers  
+- **Delta Lake** - ACID transactions, schema evolution, time travel  
+- **Incremental Processing** - Efficient data refresh patterns  
+- **Data Quality Checks** - Validation at each layer  
+- **Scalable Design** - Handles growing data volumes  
+- **End-to-End Orchestration** - Automated daily workflows  
 
 ---
 
-##  Technologies & Skills Demonstrated
+## Technologies & Skills Demonstrated
 
 - **Cloud Platform**: Azure (ADLS Gen2, ADF, Databricks, Synapse)
 - **Programming**: PySpark, Python, SQL
@@ -209,22 +209,22 @@ Based on the analytics platform, example insights include:
 
 ---
 
-##  License
+## License
 
 This project is created for educational and portfolio purposes.
 
 ---
 
-##  Author
+## Author
 
 **Lakshmi Srinivas**  
 Data Engineer | 3+ Years Experience | Azure & Databricks Specialist
 
-*Feel free to connect with me on [LinkedIn](www.linkedin.com/in/lakshmisrinivas7981838181) or check out my other projects!*
+*Feel free to connect with me on [LinkedIn](https://linkedin.com/in/lakshmisrinivas7981838181) or check out my other projects!*
 
 ---
 
-##  References
+## References
 
 - [Azure Data Lake Gen2 Documentation](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
 - [Azure Data Factory Best Practices](https://docs.microsoft.com/azure/data-factory/)
